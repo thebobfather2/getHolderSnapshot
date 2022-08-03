@@ -1,0 +1,11 @@
+1.  Open getHolderSnapshot folder.
+2. Run node getSnapshot.js input.txt output.json (wait for it to finish)
+3. Run node filter.js
+4. Run solana config set -u mainnet-beta -k BRSCAJg56nkH7rxH5mAPpx3GVLgQ58Bx5kejFkZnacie.json
+5. Run python airdrop.py transfer -a wallets.txt --drop 7 --fund-recipient --allow-unfunded-recipient
+6. Press 1 for first prompt (selects quicknode rpc)
+7. Paste in CARoTGvYPajELZsoLQSovLY8fZmBkrrUoyJVJN3zGwQT for mint
+8. Press 0 for decimals
+9 Type ALL and hit enter and it will run through all of them.
+10.  It will dump all logs into that folder.
+11.  Unconfirmed usually have gone through, failed usually not, but can't be certain.  If there are a huge amount, I just ask people to make a ticket, check their wallet against the wallets.txt and how many were sent via solscan and manually send the rest.

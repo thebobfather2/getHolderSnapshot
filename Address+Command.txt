@@ -1,0 +1,4 @@
+Token Address CARoTGvYPajELZsoLQSovLY8fZmBkrrUoyJVJN3zGwQT
+command
+
+python airdrop.py transfer -a wallets.txt --drop 6 --fund-recipient --allow-unfunded-recipient
